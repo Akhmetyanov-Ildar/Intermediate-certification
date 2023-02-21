@@ -1,0 +1,41 @@
+//создание дирректорий "»грушки дл€ школьников" и "»грушки дл€ дошкол€т"
+
+db@gb-linux:~/lesson4$ mkdir toysForSchoolchildren
+db@gb-linux:~/lesson4$ mkdir toysForSmallChild
+
+//заполн€ю директорию "»грушки дл€ школьников" файлами "роботы", "конструкторы", "настольные игры"
+
+db@gb-linux:~/lesson4/toysForSchoolchildren$ cat >robots
+db@gb-linux:~/lesson4/toysForSchoolchildren$ cat >constructors 
+db@gb-linux:~/lesson4/toysForSchoolchildren$ cat > tableGames
+
+//заполн€ю директорию "»грушки дл€ дошкол€т" файлами "м€гкие игрушки", "куклы", "машинки"
+
+db@gb-linux:~/lesson4/toysForSmallChild$ cat > StuffedToys
+db@gb-linux:~/lesson4/toysForSmallChild$ cat > Dolls 
+db@gb-linux:~/lesson4/toysForSmallChild$ cat > Cars
+
+//объединить две дирректории в одну и с названием "»м€ игрушки"
+//не нашел как объединить две папки в одну, нашел только как переместить содержимое одной папки в другую
+
+db@gb-linux:~/lesson4$ mv toysForSmallChild toysForSchoolchildren
+
+//переименовать дирректорию, присвоив ей новое имс€ "»грушки"
+
+db@gb-linux:~/lesson4$ mv toysForSchoolchildren toys 
+
+//установить и удалить snap-пакет
+
+db@gb-linux:~$ sudo apt install snapd
+db@gb-linux:~$ snap find telegram
+db@gb-linux:~$ sudo snap install telegram-desktop
+db@gb-linux:~$ sudo snap remove telegram-desktop
+
+//ƒобавить задачу дл€ выполнени€ каждые 3 минуты (запись во все файлы)
+//какую именно задачу надо выполн€ть не пон€л, ниже указаны команды дл€ настройки
+//задач в crontab каждые три минуты
+
+db@gb-linux:~$  crontab -e
+0/3 * * * * echo ~/lesson4/toys/* >> ~/lesson4/test.txt 
+
+

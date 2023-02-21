@@ -1,0 +1,22 @@
+Toy{toysId=11, toysName='Snake', count=1, frequency=85}
+Toy{toysId=7, toysName='SpiderMan', count=1, frequency=85}
+Toy{toysId=10, toysName='Tetris', count=1, frequency=75}
+Toy{toysId=6, toysName='Superman', count=1, frequency=75}
+Toy{toysId=4, toysName='Tank', count=1, frequency=60}
+Toy{toysId=1, toysName='Optimus', count=1, frequency=45}
+Toy{toysId=5, toysName='Moto', count=1, frequency=42}
+Toy{toysId=2, toysName='Ferrari', count=1, frequency=30}
+Toy{toysId=3, toysName='Iron man', count=1, frequency=10}
+Toy{toysId=8, toysName='Lego', count=1, frequency=7}
+Toy{toysId=9, toysName='MagicSand', count=1, frequency=5}
+Toy{toysId=11, toysName='Snake', count=1, frequency=85}
+Toy{toysId=7, toysName='SpiderMan', count=1, frequency=85}
+Toy{toysId=10, toysName='Tetris', count=1, frequency=75}
+Toy{toysId=6, toysName='Superman', count=1, frequency=75}
+Toy{toysId=4, toysName='Tank', count=1, frequency=60}
+Toy{toysId=1, toysName='Optimus', count=1, frequency=45}
+Toy{toysId=5, toysName='Moto', count=1, frequency=42}
+Toy{toysId=2, toysName='Ferrari', count=1, frequency=30}
+Toy{toysId=3, toysName='Iron man', count=1, frequency=10}
+Toy{toysId=8, toysName='Lego', count=1, frequency=7}
+Toy{toysId=9, toysName='MagicSand', count=1, frequency=5}
